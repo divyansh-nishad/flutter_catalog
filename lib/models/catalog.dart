@@ -1,5 +1,5 @@
 class CatalogModel {
-  static final items = [
+  static List<Item> items = [
     Item(
         id: 1,
         name: "iPhone 12 pro",
@@ -27,5 +27,5 @@ class Item {
       required this.color,
       required this.image});
 
-      Item.fromMap()
+  
 }
